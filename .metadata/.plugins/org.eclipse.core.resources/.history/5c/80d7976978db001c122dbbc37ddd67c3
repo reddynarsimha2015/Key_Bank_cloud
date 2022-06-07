@@ -1,0 +1,26 @@
+server:
+  port: 9698
+  
+  eureka:
+   client:
+   serviceUrl:
+   defaultZone: http://localhost:8786/eureka
+
+  
+  Spring:
+  servlet:
+   application: 
+     name: gateway-service
+   cloud:
+     gateway:
+      routes:
+       -id: enrollment-service
+       uri: lb:/enrollment-service
+      predicates:
+       - Path=/v1/enrollment/**
+      -id: payment-service
+     uri: lb:/payment-service
+     predicates:
+     - Path= /payment/**
+     
+     

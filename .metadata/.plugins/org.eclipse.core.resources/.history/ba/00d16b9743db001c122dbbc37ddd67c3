@@ -1,0 +1,9 @@
+#serviceName which ill register iterslf in eureka server
+spring.mvc.pathmatch.matching-strategy= ANT_PATH_MATCHER
+spring.application.name=enrollment-service
+
+#enable discovery config  server through eruka
+spring.cloud.config.discovery.enabled=true
+
+#config server service instance if in eureka 
+spring.cloud.config.discovery.serviceId=config-server

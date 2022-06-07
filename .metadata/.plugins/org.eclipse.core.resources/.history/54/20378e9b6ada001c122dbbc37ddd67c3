@@ -1,0 +1,8 @@
+server.port=8761
+
+#no need to register eureka server with itself'
+eureka.client.register-with-eureka=false
+
+# dont fetch or cache any services registries
+
+eureka.client.fetch-registry=false

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Keybank-spring-cloud-gateway&apos;&#x0D;&#x0A;- Original project: &apos;Keybank-spring-cloud-gateway&apos;&#x0D;&#x0A;- Original element: &apos;Keybank-spring-cloud-gateway/src/test/java/com.keybank.springcloudgateway&apos;" description="Delete element" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.keybank.springcloudgateway" element2="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.keybank" element3="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1653408313944" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+server:
+  port: 9787
+  
+eureka:
+ client:
+  service-url:
+    defaultZone: http://localhost:8761/eureka
+
+  
+spring:
+  application: 
+    name: gateway-service
+  cloud:
+    gateway:
+     routes:
+       - id: enrollment-service
+         uri: lb://enrollment-service
+         predicates:
+          - Path=/v1/enrollment/**
+       - id: payment-service
+         uri: lb://payment-service
+         predicates:
+          - Path= /payment/**
+    
+  main:
+     web-application-type: reactive

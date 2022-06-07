@@ -1,0 +1,6 @@
+#serviceName which ill register iterslf in eureka server
+
+spring.application.name=o2-telecom-service
+
+#enable discovery config  server through eruka
+spring.cloud.config.discovery.enabled=true

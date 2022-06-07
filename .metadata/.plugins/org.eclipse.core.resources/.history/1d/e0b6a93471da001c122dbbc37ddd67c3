@@ -1,0 +1,4 @@
+#serviceName which ill register iterslf in eureka server
+
+spring.application.name=enrollment-service
+

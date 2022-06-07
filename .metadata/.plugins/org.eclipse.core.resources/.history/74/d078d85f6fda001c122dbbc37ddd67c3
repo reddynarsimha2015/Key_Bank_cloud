@@ -1,0 +1,7 @@
+server.port=9696
+
+# remote git repo
+
+spring.cloud.config.server.git.uri=https://github.com/reddynarsimha2015/auto-bill-payments.git
+spring.cloud.config.server.git.username=reddynarsimha2015
+spring.cloud.config.server.git.password=rajureddy_18

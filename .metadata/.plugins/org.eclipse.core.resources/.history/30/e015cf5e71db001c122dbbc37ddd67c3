@@ -1,0 +1,5 @@
+package com.keybank.enrollment.config;
+
+public class ConfigPropertiesHolder {
+
+}

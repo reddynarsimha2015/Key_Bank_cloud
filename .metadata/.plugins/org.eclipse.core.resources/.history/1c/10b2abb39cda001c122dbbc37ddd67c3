@@ -1,0 +1,20 @@
+
+server.port=9096
+
+
+#register the ipaddress service instance'
+
+eureka.instance.prefer-ip-address=true
+
+#registe this service instance with erureka
+
+eureka.client.register-with-eureka=true
+
+
+#fetch complete listt of service registery from eureka
+
+eureka.client.fetch-registry=true
+
+# loction to find where wrueka server is running
+
+eureka.client.service-url.defaultZoone=http://localhost:8761/eureka
